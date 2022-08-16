@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!--StyleSheet (CSS File) is attached here-->
     <link rel="stylesheet" href="style.css" />
+    
     <title>Sorting Visualizer By aashishkjha</title>
+    
   </head>
   <body>
     <div class="container">
+      
       <div class="bars_container" id="bars_container"></div>
 
       <div class="buttons_container">
+        
+        
         <!-- <label for="slider">Array Size:</label> -->
         <input
           type="range"
@@ -21,24 +28,37 @@
           step="5"
           value="50"
         />
-
+        
+        
+       <!--Option Button of Speed of the visualization-->
         <select name="" id="speed">
           <option value="100">Slow</option>
           <option value="50">Medium</option>
           <option value="10">Fast</option>
         </select>
+        
+        
+        <!--Option Button on Algorithm to Visualize-->
         <select name="" id="algo">
           <option value="bubble">Bubble Sort</option>
           <option value="insertion">Insertion Sort</option>
-          <option value="heap">Heap Sort</option>
+         <!-- <option value="heap">Heap Sort</option>-->
           <option value="merge">Merge Sort</option>
           <option value="quick">Quick Sort</option>
         </select>
+        
+        <!--Button to Randomize Array-->
+        
         <button id="randomize_array_btn">Randomize Array</button>
+        
+        <!--Button to Start Sorting-->
         <button id="sort_btn">Sort</button>
+        
       </div>
     </div>
-
+    
+    
+   <!--Javascript File Added-->
     <script src="index.js"></script>
   </body>
 </html>
